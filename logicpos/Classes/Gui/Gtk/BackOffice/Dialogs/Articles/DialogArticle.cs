@@ -39,7 +39,7 @@ namespace logicpos.Classes.Gui.Gtk.BackOffice
             }
             else
             {
-                SetSizeRequest(500, 670);
+                SetSizeRequest(500, 740);
             }
 
             InitUI();

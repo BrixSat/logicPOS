@@ -18,7 +18,7 @@ namespace logicpos.Classes.Gui.Gtk.BackOffice
     class DialogConfigurationPreferenceParameter : BOBaseDialog
     {
         private int _windowWidth = 500;
-        private int _windowHeightForTextComponent = 331;
+        private int _windowHeightForTextComponent = 391;
         private int _windowHeight = 0;
 
         public static void SaveSettings(string fieldName)

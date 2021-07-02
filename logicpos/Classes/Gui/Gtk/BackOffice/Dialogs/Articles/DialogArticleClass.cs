@@ -14,7 +14,7 @@ namespace logicpos.Classes.Gui.Gtk.BackOffice
             : base(pSourceWindow, pTreeView, pFlags, pDialogMode, pXPGuidObject)
         {
             this.Title = Utils.GetWindowTitle(resources.CustomResources.GetCustomResources(GlobalFramework.Settings["customCultureResourceDefinition"], "window_title_edit_dialog_article_class"));
-            SetSizeRequest(400, 380);
+            SetSizeRequest(400, 440);
             InitUI();
             InitNotes();
             ShowAll();

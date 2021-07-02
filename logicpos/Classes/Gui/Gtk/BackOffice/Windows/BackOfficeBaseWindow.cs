@@ -353,10 +353,18 @@ namespace logicpos.Classes.Gui.Gtk.BackOffice
 
         void BackOfficeMainWindow_DeleteEvent(object o, DeleteEventArgs args)
         {
-            Hide();
-            GlobalApp.WindowPos.ShowAll();
+            try
+            {
+                Hide();
+                GlobalApp.WindowPos.ShowAll();
+            }
+            catch (Exception ex)
+            {
+                _log.Error(ex.Message, ex);
+            }
             //Prevent Window Destroy, When user Uses Close
             args.RetVal = true;
+
         }
 
         //Process here the AccordionChildButton Events, only here we have access to BackOffice Objects. Ex.: _hboxContent

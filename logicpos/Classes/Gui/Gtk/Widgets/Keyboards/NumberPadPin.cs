@@ -195,7 +195,7 @@ namespace logicpos.Classes.Gui.Gtk.Widgets
             _table.Attach(_buttonQuitOrOk, 2, 3, 4, 5, AttachOptions.Fill, AttachOptions.Fill, pPadding, pPadding);
             //Row5
             _table.Attach(_labelStatus, 0, 3, 5, 6, AttachOptions.Fill, AttachOptions.Fill, pPadding, pPadding);
-            _table.SetRowSpacing(4, pRowSpacingLabelStatus);
+            _table.SetRowSpacing(6, pRowSpacingLabelStatus);
             //row6
             if (pShowSystemButtons)
             {

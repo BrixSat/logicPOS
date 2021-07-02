@@ -28,7 +28,7 @@ namespace logicpos.Classes.Gui.Gtk.BackOffice
             : base(pSourceWindow, pTreeView, pFlags, pDialogMode, pXPGuidObject)
         {
             this.Title = Utils.GetWindowTitle(resources.CustomResources.GetCustomResources(GlobalFramework.Settings["customCultureResourceDefinition"], "window_title_edit_user"));
-            SetSizeRequest(500, 469);
+            SetSizeRequest(500, 540);
 
             //Store References
             _userDetail = (DataSourceRow as sys_userdetail);
