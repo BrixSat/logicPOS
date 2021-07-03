@@ -41,9 +41,9 @@ namespace logicpos.App
         //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         //Application
 
-        public static string AppName = "LogicPos";
+        public static string AppName = "CampingPos";
         public static string AppIcon = "application.ico";
-        public static string AppUrl = "www.logicpulse.com";
+        public static string AppUrl = "www.CampingAve.net";
 
         //Custom licence, Outside of Config, if exist use it overriding intelilock mechanism
         public static string LicenceFileName = "licence.lic";

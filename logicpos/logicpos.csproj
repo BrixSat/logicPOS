@@ -998,6 +998,7 @@
     <Content Include="Assets\Images\Icons\SubFamilies\ShoeStore\shoe_store_subcategory_icon_120.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Images\Other\loading.gif" />
     <Content Include="Assets\Images\Other\working_create_db.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

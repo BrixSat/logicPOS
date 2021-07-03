@@ -1467,6 +1467,7 @@ namespace logicpos
   
             Dialog dialog = new Dialog("Working", pSourceWindow, DialogFlags.Modal | DialogFlags.DestroyWithParent);
             dialog.WindowPosition = WindowPosition.Center;
+            
             //dialog.Display = 0;
             //Mensagem alternativa para primeira instalação e versao com DB criada
             Label labelBoot;            
@@ -1474,15 +1475,20 @@ namespace logicpos
             else labelBoot = new Label(resources.CustomResources.GetCustomResources(GlobalFramework.Settings["customCultureResourceDefinition"], "global_load_first_time"));
             labelBoot.ModifyFont(Pango.FontDescription.FromString("Trebuchet MS 10 Bold"));
             labelBoot.ModifyFg(StateType.Normal, Utils.ColorToGdkColor(Color.DarkSlateGray));
+            //labelBoot.SetAlignment(0, 0);
+            labelBoot.SetSizeRequest(200, 50);
             dialog.Decorated = false;
+            
             //dialog.BorderWidth = 5;
-            dialog.SetSizeRequest(194, 220);
+            dialog.SetSizeRequest(200, 250);
             dialog.ActionArea.Destroy();
             Gtk.Image imageWorking = new Gtk.Image(fileWorking);
+            imageWorking.SetSizeRequest(200, 200);
+            imageWorking.SetAlignment(0, 0);
+            //imageWorking.SetUposition( 10,0);
             dialog.VBox.PackStart(imageWorking);
-            dialog.VBox.PackStart(labelBoot);
+            dialog.VBox.PackStart(labelBoot,true,true,0);
             dialog.ShowAll();
-
             return dialog;
         }
 

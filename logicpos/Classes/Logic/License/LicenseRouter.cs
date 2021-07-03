@@ -53,7 +53,8 @@ namespace logicpos.Classes.Logic.License
             }
 #endif
 
-#if (!DEBUG)
+
+//#if (!DEBUG)
             if (showDebug)
             {
                 _log.Debug("Before GetLicenceInfo");
@@ -161,7 +162,7 @@ namespace logicpos.Classes.Logic.License
             {
                 _log.Error("Cannot connect with the intellilock WebService: " + ex.Message, ex);
             }
-#endif
+//#endif
 
             if (showDebug)
             {

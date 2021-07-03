@@ -24,7 +24,7 @@ namespace logicpos
         //Log4Net
         private static log4net.ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         // Use this to force Plugin with Debug Attach
-        private static bool forceShowPluginLicenceWithDebugger = false;
+        private static bool forceShowPluginLicenceWithDebugger = true;
 
         /* IN009203 - Mutex */
         private static string appGuid = "bfb677c2-a44a-46f8-93ab-d2d6a54e0b53";

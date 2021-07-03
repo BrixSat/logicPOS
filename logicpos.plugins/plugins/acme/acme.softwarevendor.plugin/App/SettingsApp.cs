@@ -13,13 +13,13 @@
         //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         //Vendor
 
-        public static string AppSoftwareName = "Acme";
-        public static string AppCompanyName = "Acme";
-        public static string AppCompanyPhone = "+351 000 000 000";
-        public static string AppCompanyEmail = "sales@acme.com";
-        public static string AppCompanyWeb = "http://www.acme.com";
-        public static string AppSoftwareVersion = string.Format("Powered by {0}© Vers. {{{0}}}", AppCompanyName);
-        public static string AppSoftwareVersionFormat = string.Format("Powered by {0}© Vers. {{0}}", AppCompanyName);
+        public static string AppSoftwareName = "Camping Ave";
+        public static string AppCompanyName = "Camping Ave";
+        public static string AppCompanyPhone = "+351 252 657  732";
+        public static string AppCompanyEmail = "info@CampingAve.net";
+        public static string AppCompanyWeb = "https://CampingAve.net";
+        public static string AppSoftwareVersion = string.Format("Powered by {0} © Vers. {{{0}}}", AppCompanyName);
+        public static string AppSoftwareVersionFormat = string.Format("Powered by {0} © Vers. {{0}}", AppCompanyName);
         public static string AppSoftwareATWSTestModeCertificatePassword = "TESTEwebservice";
         public static string AppSoftwareATWSProdModeCertificatePassword = "YOUR_PASSWORD_HERE";
 
@@ -64,7 +64,7 @@
   <D></D>
 </RSAKeyValue>";
         //SAFT-T XML Export Header
-        public static string SaftProductID = string.Format("AcmePos/{0}", AppCompanyName);
+        public static string SaftProductID = string.Format("CampingPos/{0}", AppCompanyName);
         public static string SaftProductCompanyTaxID = "000000000";
         public static string SaftSoftwareCertificateNumber = "0000";
         public static string SaftVersionPrefix = "PT";
@@ -105,7 +105,7 @@
   <D></D>
 </RSAKeyValue>";
         //SAFT-T XML Export Header
-        public static string SaftProductIDAO = string.Format("AcmePos/{0}", AppCompanyName);
+        public static string SaftProductIDAO = string.Format("CampingPos/{0}", AppCompanyName);
         public static string SaftProductCompanyTaxIDAO = "000000000";
         public static string SaftSoftwareCertificateNumberAO = "000";
         public static string SaftVersionPrefixAO = "AO";

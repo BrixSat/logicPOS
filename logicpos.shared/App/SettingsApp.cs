@@ -35,7 +35,7 @@ namespace logicpos.shared.App
         public static string AppCompanyEmail;
         //Overrided by SoftwareVendor Plugin - ex: "http://www.logicpulse.com"
         public static string AppCompanyWeb;
-        //Overrided by SoftwareVendor Plugin - ex: "string.Format("Powered by {0}© Vers. {{0}}", AppCompanyName)"
+        //Overrided by SoftwareVendor Plugin - ex: "string.Format("Powered by {0} © Vers. {{0}}", AppCompanyName)"
         public static string AppSoftwareVersionFormat;
 
         public static string AppSessionFile = "appsession_{0}.json";

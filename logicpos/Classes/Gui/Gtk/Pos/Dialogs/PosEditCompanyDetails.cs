@@ -187,16 +187,16 @@ namespace logicpos.Classes.Gui.Gtk.Pos.Dialogs
                         //Use demo data to fill values
                         if (useDataDemo)
                         {
-                            if (item.Token == "COMPANY_NAME") { entryBoxValidation.EntryValidation.Text = "LogicPulse"; }
-                            if (item.Token == "COMPANY_BUSINESS_NAME") { entryBoxValidation.EntryValidation.Text = "Technologies, Ltda"; }
-                            if (item.Token == "COMPANY_ADDRESS") { entryBoxValidation.EntryValidation.Text = "Rua Capitão Salgueiro Maia, 7"; }
-                            if (item.Token == "COMPANY_CITY") { entryBoxValidation.EntryValidation.Text = "Figueira da Foz"; }
-                            if (item.Token == "COMPANY_POSTALCODE") { entryBoxValidation.EntryValidation.Text = "3080-000"; }
+                            if (item.Token == "COMPANY_NAME") { entryBoxValidation.EntryValidation.Text = "Camping Ave"; }
+                            if (item.Token == "COMPANY_BUSINESS_NAME") { entryBoxValidation.EntryValidation.Text = "Camping Ave"; }
+                            if (item.Token == "COMPANY_ADDRESS") { entryBoxValidation.EntryValidation.Text = "Rua da Mocha 396, Ferreiró"; }
+                            if (item.Token == "COMPANY_CITY") { entryBoxValidation.EntryValidation.Text = "Vila do Conde"; }
+                            if (item.Token == "COMPANY_POSTALCODE") { entryBoxValidation.EntryValidation.Text = "4480-250"; }
                             if (item.Token == "COMPANY_COUNTRY") { entryBoxValidation.EntryValidation.Text = "Portugal"; }
                             if (item.Token == "COMPANY_FISCALNUMBER") {entryBoxValidation.EntryValidation.Text = "999999990"; }
                             if (item.Token == "COMPANY_STOCK_CAPITAL") { entryBoxValidation.EntryValidation.Text = "1000"; }
-                            if (item.Token == "COMPANY_EMAIL") { entryBoxValidation.EntryValidation.Text = "comercial@logicpulse.com"; }
-                            if (item.Token == "COMPANY_WEBSITE") { entryBoxValidation.EntryValidation.Text = "www.logicpulse.com"; }
+                            if (item.Token == "COMPANY_EMAIL") { entryBoxValidation.EntryValidation.Text = "info@campingave.net"; }
+                            if (item.Token == "COMPANY_WEBSITE") { entryBoxValidation.EntryValidation.Text = "www.CampingAve.net"; }
                         }
 
                         //Only Assign Value if Debugger Attached: Now the value for normal user is cleaned in Init Database, we keep this code here, may be usefull
