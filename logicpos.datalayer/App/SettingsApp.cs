@@ -15,7 +15,7 @@ namespace logicpos.datalayer.App
         /* IN008024: It has been opted to remove old themes (based on database properties "cfg_configurationpreferenceparameter.APP_THEME") implementation 
          *  GlobalFramework.PreferenceParameters["APP_THEME"] >>> The only option here was "Default" because we don't had other themes available.
          */
-        public static string AppTheme = "Default";
+        public static string AppTheme = "CampPos"; // was "Default"
 
         //Used in Application : Assigned on InitPlataformParameters()
         public static cfg_configurationcountry ConfigurationSystemCountry = null;
