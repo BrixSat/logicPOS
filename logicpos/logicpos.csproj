@@ -6714,8 +6714,12 @@
       <Project>{7f643f3c-0f7b-451a-aa16-a9a25a56ccf3}</Project>
       <Name>logicpos.financial.library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\logicpos.plugins\campos.licencemanager.plugin\campos.licencemanager.plugin.csproj">
+      <Project>{01f26ab4-e023-4e94-85f4-4bb027ea18bf}</Project>
+      <Name>campos.licencemanager.plugin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\logicpos.plugins\logicpos.plugin.contracts\logicpos.plugin.contracts.csproj">
-      <Project>{43c879d1-31ae-424f-91d1-92cf286d5497}</Project>
+      <Project>{43C879D1-31AE-424F-91D1-92CF286D5497}</Project>
       <Name>logicpos.plugin.contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\logicpos.plugins\logicpos.plugin.library\logicpos.plugin.library.csproj">

@@ -3,7 +3,7 @@ using logicpos.App;
 using logicpos.Classes.Enums.App;
 using logicpos.Classes.Logic.License;
 using logicpos.plugin.contracts;
-
+//using campos.licencemanager.plugin;
 using logicpos.plugin.library;
 using System;
 using System.Collections;
